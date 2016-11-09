@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Angular jQuery Knob</title>
+  </head>
+  <body ng-app="app">
+    <h1>Test</h1>
+    <test-dir></test-dir>
+    <h1>Knob</h1>
+    <angular-knob fg-color="red" bg-color="green" ng-model="rating"></angular-knob>
+    <p>
+      <input type="text" ng-model="rating" />
+    </p>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery-knob/dist/jquery.knob.min.js"></script>
+    <script src="bundle.js" charset="utf-8"></script>
+  </body>
+</html>

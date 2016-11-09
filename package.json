@@ -1,0 +1,36 @@
+{
+  "name": "angular-jquery-knob",
+  "version": "0.0.1",
+  "description": "AngularJS Wrapper for jQuery Knob Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ],
+    "ignore": [
+      "node_modules"
+    ]
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "jquery",
+    "knob"
+  ],
+  "author": "Mike Erickson <codedungeon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "jquery": "^2.2.4",
+    "jquery-knob": "^1.2.11",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
